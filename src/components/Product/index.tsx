@@ -1,5 +1,6 @@
+import Button from '../Button'
 import Tag from '../Tag'
-import { Botao, Card, Nota, Texto, Titulo } from './style'
+import { Card, Nota, Texto, Titulo } from './style'
 
 type Props = {
   category: string
@@ -29,7 +30,9 @@ const Product = ({
       </div>
     </div>
     <Texto>{description}</Texto>
-    <Botao>Saiba mais</Botao>
+    <Button type="button" to="/cardapio" title="">
+      Saiba mais
+    </Button>
   </Card>
 )
 

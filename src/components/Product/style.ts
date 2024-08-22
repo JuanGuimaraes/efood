@@ -44,15 +44,3 @@ export const Texto = styled.p`
   line-height: 22px;
   margin: 16px 8px;
 `
-
-export const Botao = styled.button`
-  font-size: 14px;
-  align-items: center;
-  font-weight: bold;
-  padding: 4px 6px;
-  background-color: ${cores.laranja};
-  color: ${cores.salmao};
-  border: none;
-  margin-left: 8px;
-  margin-bottom: 8px;
-`
